@@ -24,7 +24,7 @@ export default function App(props) {
             borderColor:themeColor[500],
             borderRadius:8,
             padding: 10,
-            color:mainColor[100],
+            color:themeColor[500],
         },
         item: {
             backgroundColor: themeColor[800],
@@ -53,27 +53,32 @@ export default function App(props) {
     <View  style={{flex:1,overflow:'auto'}}>
 
         <HView style={{ borderWidth:2,borderColor:themeColor[400], margin:24,borderRadius:12,}}>
-            <TouchableOpacity onPress={()=> {
-                const theme=darkMode?mainColor:darkColor;
-                setThemeColor(theme);
-                changeCurrentThemeColor(theme);
-                setDarkMode(!darkMode);
-            }} style={{
-                backgroundColor: themeColor[400],
-                padding: 20,
-                marginVertical: 8,
-                marginHorizontal: 16,
-            }}>
-                <Text style={{color:themeColor[100]}} >{darkMode?"Light":"Dark"} </Text>
+            <TouchableOpacity
+                style={{
+                    backgroundColor: themeColor[600],
+                    padding: 20,
+                    marginVertical: 8,
+                    marginHorizontal: 16,
+                    borderRadius:10,
+                }}
+
+                onPress={()=> {
+                    const theme=darkMode?mainColor:darkColor;
+                    setThemeColor(theme);
+                    changeCurrentThemeColor(theme);
+                    setDarkMode(!darkMode);
+                }} >
+                <Text style={{color:themeColor[50]}} >{darkMode?"Light Mode":"Dark Mode"} </Text>
             </TouchableOpacity>
-            <TouchableOpacity  style={{
-                backgroundColor: themeColor[500],
-                padding: 20,
-                marginVertical: 8,
-                marginHorizontal: 16,
+            {/*<TouchableOpacity  style={{
+                backgroundColor: themeColor[600],
+                    padding: 20,
+                    marginVertical: 8,
+                    marginHorizontal: 16,
+                    borderRadius:10,
             }}>
                 <Text style={{color:themeColor[50]}} >Change Theme</Text>
-            </TouchableOpacity>
+            </TouchableOpacity>*/}
 
         </HView>
       <Text accessibilityRole="header" style={ {

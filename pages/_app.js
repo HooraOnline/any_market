@@ -31,7 +31,7 @@ function MyApp({ Component, pageProps }) {
                         <LanguageContext.Provider value={[language, setLanguage]}>
                             <DarkModeContext.Provider value={[darkMode, setDarkMode]}>
                                 <DirectionContext.Provider value={[direction, setDirection]}>
-                                    <View dir={direction} style={{flex:1,backgroundColor:darkMode?darkColor[50] :themeColor[50]}}>
+                                    <View dir={direction} style={{flex:1,backgroundColor:darkMode?darkColor[100] :themeColor[20]}}>
                                         <Component  {...pageProps}/>
                                     </View>
                                 </DirectionContext.Provider>
