@@ -7,13 +7,17 @@ import {primary, success} from "../helper/themes";
 import {ColorContext,DirectionContext,LanguageContext,DarkModeContext,} from "../helper/context";
 import {View} from "react-native";
 import {darkColor, mainColor} from "../helper/colors";
+import {useLocalStorage} from "../hoks/useLocalStorage";
 
 
 function MyApp({ Component, pageProps }) {
-    const [darkMode, setDarkMode] = useState(false);
-    const [themeColor, setThemeColor] = useState(mainColor);
+    //const [darkMode, setDarkMode] = useState(false);
+    const [darkMode, setDarkMode] = useLocalStorage("darkMode");
+    const [themeColor, setThemeColor] = useLocalStorage(mainColor) || themeColor;
+
     const [direction, setDirection] = useState('rtl');
     const [language, setLanguage] = useState('farsi');
+
 
     useEffect(()=>{
         //setColor(purple2(darkMode));
@@ -31,7 +35,7 @@ function MyApp({ Component, pageProps }) {
                         <LanguageContext.Provider value={[language, setLanguage]}>
                             <DarkModeContext.Provider value={[darkMode, setDarkMode]}>
                                 <DirectionContext.Provider value={[direction, setDirection]}>
-                                    <View dir={direction} style={{flex:1,backgroundColor:darkMode?darkColor[100] :themeColor[20]}}>
+                                    <View dir={direction} style={{flex:1,backgroundColor:darkMode?darkColor[50] :themeColor[20]}}>
                                         <Component  {...pageProps}/>
                                     </View>
                                 </DirectionContext.Provider>

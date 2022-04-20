@@ -1,11 +1,11 @@
-import { StyleSheet,  TextInput,FlatList,TouchableOpacity } from 'react-native'
+import { StyleSheet,  TextInput,FlatList } from 'react-native'
 import {useContext, useState} from "react";
 import {
     container_css,
-    input_css,
+    input_css, item_css, link_css,
     text_css,
 } from "../styles/globalStyle";
-import {View, HView, Text,} from "../components-base";
+import {View, HView, Text,TouchableOpacity} from "../components-base";
 import {ColorContext, DarkModeContext} from "../helper/context";
 import {bgWhite, changeCurrentThemeColor, currentThemeColor, darkColor, mainColor} from "../helper/colors";
 import Link from 'next/link'
@@ -17,37 +17,15 @@ export default function App(props) {
   const [themeColor,setThemeColor]=useContext(ColorContext);
     const styles = StyleSheet.create({
         container: container_css,
-        input:{
-            height: 40,
-            margin: 12,
-            borderWidth: 1,
-            borderColor:themeColor[500],
-            borderRadius:8,
-            padding: 10,
-            color:themeColor[500],
-        },
-        item: {
-            backgroundColor: themeColor[800],
-            padding: 20,
-            marginVertical: 8,
-            marginHorizontal: 16,
-            color:mainColor[100]
-        },
-        link: {
-            color: themeColor[50],
-            textAlign: 'center',
-            backgroundColor: themeColor[700],
-            width:200,
-            alignSelf:'center',
-            padding:10,
-            borderRadius:10,
-        },
+        input:input_css(themeColor),
+        item:item_css(themeColor) ,
+        link: link_css(themeColor),
         textContainer: {
             alignItems: 'center',
             marginTop: 16,
             color: themeColor[800],
         },
-        text: text_css,
+        text: text_css(themeColor),
     });
   return (
     <View  style={{flex:1,overflow:'auto'}}>
@@ -55,7 +33,7 @@ export default function App(props) {
         <HView style={{ borderWidth:2,borderColor:themeColor[400], margin:24,borderRadius:12,}}>
             <TouchableOpacity
                 style={{
-                    backgroundColor: themeColor[600],
+                    backgroundColor: themeColor[500],
                     padding: 20,
                     marginVertical: 8,
                     marginHorizontal: 16,
@@ -67,6 +45,7 @@ export default function App(props) {
                     setThemeColor(theme);
                     changeCurrentThemeColor(theme);
                     setDarkMode(!darkMode);
+
                 }} >
                 <Text style={{color:themeColor[50]}} >{darkMode?"Light Mode":"Dark Mode"} </Text>
             </TouchableOpacity>
@@ -127,9 +106,9 @@ export default function App(props) {
 }
 
 const List=()=>{
-    const [themeColor,setThemeColor]=useContext(ColorContext);
+    const [themeColor]=useContext(ColorContext);
     return(
-        <View style={{backgroundColor:themeColor[100],padding:24,margin:24}}>
+        <View style={{backgroundColor:themeColor[100],padding:24,margin:24,borderRadius:12}}>
             <FlatList
                 data={ [
                     {

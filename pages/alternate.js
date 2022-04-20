@@ -3,8 +3,8 @@ import {changeCurrentThemeColor, darkColor, mainColor} from "../helper/colors";
 import Link from 'next/link'
 import {useContext, useState} from "react";
 import {ColorContext, DarkModeContext} from "../helper/context";
-import {TouchableOpacity} from "react-native-web";
-import {Text, View} from "../components-base";
+
+import {Text, TouchableOpacity, View} from "../components-base";
 
 export default function Alternate() {
   const [darkMode,setDarkMode]=useContext(DarkModeContext);

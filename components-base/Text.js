@@ -1,5 +1,5 @@
 import {Text as Text1,StyleSheet} from "react-native";
-import {useContext, useEffect, useState} from "react";
+import {useContext,} from "react";
 import {DarkModeContext} from "../helper/context";
 
 export const  Text=(props)=>{

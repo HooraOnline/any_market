@@ -3,7 +3,7 @@ export const bgWhite = "#fff";
 export const bgGray = "#efefef";
 
 
-export const mainColor={
+export let mainColor={
     20: '#fffef5',
     50: '#ffe6f5',
     100: '#f5beda',
@@ -15,6 +15,9 @@ export const mainColor={
     700: '#6b1441',
     800: '#420a28',
     900: '#1c010f',
+}
+ export const changeTheme=(theme)=>{
+     mainColor= theme
 }
 
 export const darkColor=
