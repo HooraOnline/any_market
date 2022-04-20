@@ -13,7 +13,7 @@ import {useLocalStorage} from "../hoks/useLocalStorage";
 function MyApp({ Component, pageProps }) {
     //const [darkMode, setDarkMode] = useState(false);
     const [darkMode, setDarkMode] = useLocalStorage("darkMode",false);
-    const [themeColor, setThemeColor] = useLocalStorage('themeColor',mainColor) ;
+    const [themeColor, setThemeColor] = useLocalStorage('themeColor',mainColor);
 
     const [direction, setDirection] = useState('rtl');
     const [language, setLanguage] = useState('farsi');

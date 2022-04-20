@@ -9,6 +9,7 @@ import {View, HView, Text,TouchableOpacity} from "../components-base";
 import {ColorContext, DarkModeContext} from "../helper/context";
 import {bgWhite, changeCurrentThemeColor, currentThemeColor, darkColor, mainColor} from "../helper/colors";
 import Link from 'next/link'
+import {Button} from "../components-base/Button";
 
 export default function App(props) {
   const [text, onChangeText] = useState("Useless Text");
@@ -49,6 +50,7 @@ export default function App(props) {
                 }} >
                 <Text style={{color:themeColor[50]}} >{darkMode?"Light Mode":"Dark Mode"} </Text>
             </TouchableOpacity>
+
             {/*<TouchableOpacity  style={{
                 backgroundColor: themeColor[600],
                     padding: 20,
