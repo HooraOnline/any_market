@@ -12,17 +12,18 @@ import {useLocalStorage} from "../hoks/useLocalStorage";
 
 function MyApp({ Component, pageProps }) {
     //const [darkMode, setDarkMode] = useState(false);
-    const [darkMode, setDarkMode] = useLocalStorage("darkMode");
-    const [themeColor, setThemeColor] = useLocalStorage(mainColor) || themeColor;
+    const [darkMode, setDarkMode] = useLocalStorage("darkMode",false);
+    const [themeColor, setThemeColor] = useLocalStorage('themeColor',mainColor) ;
 
     const [direction, setDirection] = useState('rtl');
     const [language, setLanguage] = useState('farsi');
 
-
+debugger
     useEffect(()=>{
         //setColor(purple2(darkMode));
-
+        //if(!themeColor) setThemeColor(mainColor)
     },[darkMode])
+
 
     return (
         <ReactReduxContext.Consumer>
