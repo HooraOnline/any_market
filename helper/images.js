@@ -1,2 +1,9 @@
-//temp
-//export const compony1 = '/temp/compony1.jpg';
+export const vector1 = '/img/vector1.png';
+export const vector2 = '/img/vector2.png';
+export const vector3 = '/img/vector3.png';
+export const vector4 = '/img/vector4.jpg';
+export const vector5 = '/img/vector5.jpg';
+export const vector6 = '/img/vector6.png';
+export const vector7 = '/img/vector7.png';
+export const topImage = '/img/main.png';
+export const sellers = '/img/sellers.png';

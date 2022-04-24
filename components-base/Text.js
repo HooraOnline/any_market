@@ -7,7 +7,7 @@ export const  Text=(props)=>{
     let combineStyles=style;
     const [darkMode]=useContext(DarkModeContext);
     if(darkMode){
-        combineStyles=StyleSheet.flatten([style,darkStyle]);
+        combineStyles=StyleSheet.flatten([{fontFamily: "IRANYekanRegular"},style,darkStyle]);
     }
 
     return ( <>

@@ -7,7 +7,8 @@ const normalizeNextElements = `
   #__next {
     display: flex;
     flex-direction: column;
-    height: 100%;
+   
+    overflow-x:hidden
   }
 `
 
@@ -25,7 +26,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <Html lang="fa" style={{ height: '100%' }}>
+      <Html lang="fa" style={{ minHeight: '100vh' }}>
         <Head />
         <body style={{ height: '100%', overflow: 'hidden',direction:'rtl' }}>
           <Main />

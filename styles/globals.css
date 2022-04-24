@@ -23,7 +23,8 @@ body {
   margin: 0;
   font-family: "IRANYekanRegular", serif, Roboto, Oxygen;
   direction:rtl;
-  overflow-x: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 .css-textinput-11aywtz {
   appearance: none;

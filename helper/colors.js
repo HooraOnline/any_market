@@ -1,10 +1,9 @@
-//export const mainColor = "#d11d1d";
+//export const mainColors = "#d11d1d";
 export const bgWhite = "#fff";
 export const bgGray = "#efefef";
 
 
-export let mainColor={
-    20: '#fffef5',
+export let mainColors={
     50: '#ffe6f5',
     100: '#f5beda',
     200: '#ea95c1',
@@ -16,11 +15,14 @@ export let mainColor={
     800: '#420a28',
     900: '#1c010f',
 }
- export const changeTheme=(theme)=>{
-     mainColor= theme
+
+export let currentColors=mainColors;
+export const changeCurrentTheme=(theme)=>{
+    mainColors= theme;
+    currentColors=theme;
 }
 
-export const darkColor=
+export const darkColors=
     {
         900: '#f2f2f2',
         800: '#d9d9d9',
@@ -34,13 +36,10 @@ export const darkColor=
         50: '#0d0d0d',
     }
 
-export let currentThemeColor=mainColor;
-export const changeCurrentThemeColor=(theme)=>{
-    currentThemeColor=theme;
-}
 
 
-export const red={
+
+export const redColors={
     50: '#ffe5e5',
     100: '#fbbaba',
     200: '#f28e8e',
@@ -53,7 +52,7 @@ export const red={
     900: '#1e0000',
 }
 
-export const red2={
+export const red2Colors={
     50: '#ffe2ec',
     100: '#ffb3c5',
     200: '#fc839f',
@@ -66,7 +65,7 @@ export const red2={
     900: '#200005',
 }
 
-export const Yellow={
+export const YellowColors={
         50: '#fffadd',
         100: '#fcf1b3',
         200: '#f8e885',
@@ -79,7 +78,7 @@ export const Yellow={
         900: '#1a1500',
     }
 
-export const Yellow2=
+export const Yellow2Colors=
     {
         50: '#fff2de',
         100: '#fddcb2',
@@ -93,7 +92,7 @@ export const Yellow2=
         900: '#1d0d00',
     }
 
-export const green=
+export const greenColors=
     {
         50: '#e2fbed',
         100: '#c2ebd4',
@@ -107,7 +106,7 @@ export const green=
         900: '#001506',
     }
 
-export const green2=
+export const green2Colors=
     {
         50: '#defdf9',
         100: '#bbf1ec',
@@ -121,7 +120,7 @@ export const green2=
         900: '#001715',
     }
 
-export const blue=
+export const blueColors=
     {
         50: '#e0f4ff',
         100: '#b8dcfa',
@@ -136,7 +135,7 @@ export const blue=
     }
 
 
-export const blue2={
+export const blue2Colors={
         50: '#d9fdff',
         100: '#adf1ff',
         200: '#7fe7fb',
@@ -149,7 +148,7 @@ export const blue2={
         900: '#00171c',
     }
 
-export const purple=  {
+export const purpleColors=  {
     50: '#f0eaff',
     100: '#d1c1f4',
     200: '#b199e7',
@@ -161,7 +160,7 @@ export const purple=  {
     800: '#1e0f40',
     900: '#0c031b',
 }
-export const purple2={
+export const purple2Colors={
     50: '#ffe6f5',
     100: '#f5beda',
     200: '#ea95c1',
@@ -174,7 +173,7 @@ export const purple2={
     900: '#1c010f',
 }
 
-export const gray2=
+export const gray2Colors=
     {
         50: '#e8f3ff',
         100: '#cfd8e3',

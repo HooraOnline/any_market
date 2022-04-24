@@ -3,25 +3,24 @@ import "../styles/globals.css";
 import { wrapper } from "../redux/store";
 import { PersistGate } from "redux-persist/integration/react";
 import { ReactReduxContext } from "react-redux";
-import {primary, success} from "../helper/themes";
+
 import {ColorContext,DirectionContext,LanguageContext,DarkModeContext,} from "../helper/context";
-import {View} from "react-native";
-import {darkColor, mainColor} from "../helper/colors";
+import {changeCurrentTheme, darkColors, greenColors, mainColors} from "../helper/colors";
 import {useLocalStorage} from "../hoks/useLocalStorage";
+import {SafeAreaView, StatusBar,StyleSheet,View} from "react-native-web";
 
 
 function MyApp({ Component, pageProps }) {
     //const [darkMode, setDarkMode] = useState(false);
     const [darkMode, setDarkMode] = useLocalStorage("darkMode",false);
-    const [themeColor, setThemeColor] = useLocalStorage('themeColor',mainColor);
-
+    const [themeColor, setThemeColor] = useLocalStorage('themeColor',mainColors);
+    changeCurrentTheme(themeColor);
     const [direction, setDirection] = useState('rtl');
     const [language, setLanguage] = useState('farsi');
 
-debugger
     useEffect(()=>{
         //setColor(purple2(darkMode));
-        //if(!themeColor) setThemeColor(mainColor)
+        //if(!themeColor) setThemeColor(mainColors)
     },[darkMode])
 
 
@@ -36,9 +35,11 @@ debugger
                         <LanguageContext.Provider value={[language, setLanguage]}>
                             <DarkModeContext.Provider value={[darkMode, setDarkMode]}>
                                 <DirectionContext.Provider value={[direction, setDirection]}>
-                                    <View dir={direction} style={{flex:1,backgroundColor:darkMode?darkColor[50] :themeColor[20]}}>
-                                        <Component  {...pageProps}/>
-                                    </View>
+                                    <SafeAreaView style={styles.container}>
+                                        <View dir={direction} style={{flex:1,backgroundColor:darkMode?darkColors[50] :themeColor[20]}}>
+                                            <Component  {...pageProps}/>
+                                        </View>
+                                    </SafeAreaView>
                                 </DirectionContext.Provider>
                             </DarkModeContext.Provider>
                         </LanguageContext.Provider>
@@ -51,4 +52,20 @@ debugger
 }
 
 export default wrapper.withRedux(MyApp);
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        marginTop: StatusBar.currentHeight || 0,
+    },
+    item: {
+        backgroundColor: '#f9c2ff',
+        padding: 20,
+        marginVertical: 8,
+        marginHorizontal: 16,
+    },
+    title: {
+        fontSize: 32,
+    },
+});
 

@@ -1,0 +1,32 @@
+{
+
+  "short_name":"AnyMarket",
+  "name": "AnyMarket",
+  "icons": [
+
+    {
+      "src": "/static/icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+       "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ff6600",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ff6600",
+  "description": "سامانه بازاریابی انی مارکت",
+  "screenshots": [
+    {
+      "src": "/static/icon.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    },
+    {
+      "src": "/static/icon.png",
+      "type": "image/jpg",
+      "sizes": "540x720"
+    }
+  ]
+}

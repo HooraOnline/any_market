@@ -5,15 +5,162 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09b2b804-6dd8-4513-a58d-022ded14479c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components-base/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/with-react-native-web-app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/Colspace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/IconImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/Image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/Link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/NavigateLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/ShareIt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/ViewBreak.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/Wrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedEasing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedInteraction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedParallel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedSequence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedSpring.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedStagger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedTiming.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/FaidAnimatet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/LayoutAnimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/animation/PanResponder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/input/NumberInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/input/TextInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/modal/Alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/temp/BackHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-base/temp/Transforms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/Div.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/Divider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/IconP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/Link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/MoreText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/Paragraph.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/SelectTime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/Space.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/Text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/Title.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/Checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/CheckboxList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/CitySelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/DropList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/Dropdowner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/EditableText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/InputCardNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/InputNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/InputPassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/InputSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/InputSheba.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/InputText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/InputTextArea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/InputWebSite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/LinkButtom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/SelectCalender.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/SelectDate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/SelectDateRange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/TouchButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/form/TreeSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/grid/Col.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/grid/Row.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/image/Image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/image/ImageBackground.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/image/ImagePreviewGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/layout/Content.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/layout/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/layout/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/layout/Sider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/navigation/Affix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/navigation/Breadcrumb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/navigation/menu/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/navigation/menu/MenuItem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/navigation/menu/MenuItemGroup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components-external/navigation/menu/SubMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ResponciveCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper/sizes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hoks/useToggle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/categoryData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/data/iranCities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/gorLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/Jewelry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/accessory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/baby.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/boutique.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/boy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/cosmetic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/girl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/man.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/man_show.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/woman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/woman_bag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/womenDress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/group/womenـshoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/locationRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/locationWight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/removeWhite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/searchRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/spliter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/nativebase-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/nextjs-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/haveSite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/haveStore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/ic_0commission.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/isInfluencer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/isModeling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/isProductor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/main2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/sellers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vector1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vector2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vector3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vector4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vector5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vector6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/vector7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.webmanifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/compony1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/mastar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/mobl1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/mobl2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/morghDane.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/person1.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/person2.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/person3.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/person4.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/person5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/person6.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/person7.jfif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/temp/sahelChob.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vercel.svg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/components-base/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/components-base/Text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/TouchableOpacity.js" beforeDir="false" afterPath="$PROJECT_DIR$/components-base/TouchableOpacity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/View.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components-base/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/alternate.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/alternate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globalStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +184,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/components-base" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\anymarket_workspace\anymarket_web\components-base" />
-      <recent name="D:\anymarket_workspace\anymarket_web\redux\reducers" />
-      <recent name="D:\anymarket_workspace\anymarket_web\redux\actions" />
-      <recent name="D:\anymarket_workspace\anymarket_web\hoks" />
+      <recent name="D:\anymarket_workspace\anymarket_web\public" />
       <recent name="D:\anymarket_workspace\anymarket_web" />
+      <recent name="D:\anymarket_workspace\anymarket_web\components-base\animation" />
+      <recent name="D:\anymarket_workspace\anymarket_web\hoks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\anymarket_workspace\anymarket_web\components-base\temp" />
+      <recent name="D:\anymarket_workspace\anymarket_web\components-base\animation" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -59,6 +213,11 @@
       <updated>1650259966529</updated>
       <workItem from="1650259968429" duration="464000" />
       <workItem from="1650260570117" duration="38867000" />
+      <workItem from="1650438164677" duration="86000" />
+      <workItem from="1650438252633" duration="3933000" />
+      <workItem from="1650443014424" duration="4260000" />
+      <workItem from="1650448200000" duration="30804000" />
+      <workItem from="1650613678877" duration="23600000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="persist set default value">
       <created>1650435511994</created>

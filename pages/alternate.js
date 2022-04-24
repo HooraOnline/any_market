@@ -1,10 +1,11 @@
 import { StyleSheet} from 'react-native'
-import {changeCurrentThemeColor, darkColor, mainColor} from "../helper/colors";
+import {changeCurrentTheme, darkColors, mainColors} from "../helper/colors";
 import Link from 'next/link'
 import {useContext, useState} from "react";
 import {ColorContext, DarkModeContext} from "../helper/context";
 
-import {Text, TouchableOpacity, View} from "../components-base";
+import {Text, TouchableOpacity} from "../components-base";
+import {View} from "react-native-web";
 
 export default function Alternate() {
   const [darkMode,setDarkMode]=useContext(DarkModeContext);
@@ -12,9 +13,9 @@ export default function Alternate() {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={()=> {
-        const theme=darkMode?mainColor:darkColor;
+        const theme=darkMode?mainColors:darkColors;
         setThemeColor(theme);
-        changeCurrentThemeColor(theme);
+        changeCurrentTheme(theme);
         setDarkMode(!darkMode);
       }} style={{
         backgroundColor: themeColor[500],
