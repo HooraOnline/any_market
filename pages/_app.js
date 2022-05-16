@@ -1,13 +1,14 @@
 import React, {createContext, useContext, useEffect, useState} from "react";
 import "../styles/globals.css";
-import { wrapper } from "../redux/store";
+
 import { PersistGate } from "redux-persist/integration/react";
 import { ReactReduxContext } from "react-redux";
 
-import {ColorContext,DirectionContext,LanguageContext,DarkModeContext,} from "../helper/context";
-import {changeCurrentTheme, darkColors, greenColors, mainColors} from "../helper/colors";
-import {useLocalStorage} from "../hoks/useLocalStorage";
+import {ColorContext,DirectionContext,LanguageContext,DarkModeContext,} from "../src/helpers/context";
+import {changeCurrentTheme, darkColors, greenColors, mainColors} from "../src/helpers/colors";
+import {useLocalStorage} from "../src/hooks/useLocalStorage";
 import {SafeAreaView, StatusBar,StyleSheet,View} from "react-native-web";
+import {wrapper} from "../src/store/store";
 
 
 function MyApp({ Component, pageProps }) {

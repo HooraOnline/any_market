@@ -9,8 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "expo-screen-orientation": "^4.2.0",
     "next": "^12.1.5",
     "next-redux-wrapper": "^7.0.5",
+    "qs": "^6.10.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-native-web": "^0.17.7",

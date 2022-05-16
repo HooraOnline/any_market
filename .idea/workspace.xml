@@ -5,161 +5,158 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09b2b804-6dd8-4513-a58d-022ded14479c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/components-base/Colspace.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/IconImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/Image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/NavigateLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/ShareIt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/ViewBreak.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/Wrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedEasing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedInteraction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedParallel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedSequence.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedSpring.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedStagger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/AnimatedTiming.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/FaidAnimatet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/LayoutAnimation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/animation/PanResponder.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/input/NumberInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/input/TextInput.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/modal/Alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/temp/BackHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-base/temp/Transforms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/Div.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/Divider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/IconP.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/Link.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/MoreText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/Paragraph.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/SelectTime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/Space.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/Text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/Title.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/Checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/CheckboxList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/CitySelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/DropList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/Dropdowner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/EditableText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/InputCardNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/InputNumber.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/InputPassword.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/InputSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/InputSheba.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/InputText.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/InputTextArea.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/InputWebSite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/LinkButtom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/SelectCalender.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/SelectDate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/SelectDateRange.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/TouchButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/form/TreeSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/grid/Col.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/grid/Row.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/image/Image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/image/ImageBackground.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/image/ImagePreviewGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/layout/Content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/layout/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/layout/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/layout/Sider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/navigation/Affix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/navigation/Breadcrumb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/navigation/menu/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/navigation/menu/MenuItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/navigation/menu/MenuItemGroup.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components-external/navigation/menu/SubMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/ResponciveCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helper/sizes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hoks/useToggle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/categoryData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/data/iranCities.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/gorLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/Jewelry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/accessory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/baby.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/boutique.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/boy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/cosmetic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/girl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/man.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/man_show.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/woman_bag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/womenDress.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/group/womenـshoe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/locationRed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/locationWight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/removeWhite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/searchRed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/spliter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nativebase-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/nextjs-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/haveSite.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/haveStore.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/ic_0commission.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/isInfluencer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/isModeling.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/isProductor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/main2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/sellers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/vector1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/vector2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/vector3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/vector4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/vector5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/vector6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/vector7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/compony1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/mastar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/mobl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/mobl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/morghDane.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/person1.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/person2.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/person3.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/person4.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/person5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/person6.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/person7.jfif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/temp/sahelChob.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vercel.svg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea.rar" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-no-common/_redux_old/apiCaller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-no-common/_redux_old/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components-page/CategoryList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components-page/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/es.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/fa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routing/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routing/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routing/routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/apiService/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/apiService/apiRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/apiService/apiRequest2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/apiService/appendJWT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/apiService/formatParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/auth/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/auth/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/auth/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/category/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/category/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/category/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/register/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/register/confirmAccount/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/register/confirmAccount/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/register/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/register/saga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/task/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/task/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/task/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/users/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/users/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/modules/users/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/rootReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/rootSaga.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_helpers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/antd.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/auth/roles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/types/postsTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/types/usersTypes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-base/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/components-base/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-base/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/components-base/Text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-base/TouchableOpacity.js" beforeDir="false" afterPath="$PROJECT_DIR$/components-base/TouchableOpacity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-base/View.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components-base/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components-base/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/icons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helper/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/helper/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/Colspace.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Colspace.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/HView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/IconImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/IconImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/Link.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/NavigateLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NavigateLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/ShareIt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShareIt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/TouchableOpacity.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TouchableOpacity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/ViewBreak.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ViewBreak.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/Wrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Wrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/AnimatedEasing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/AnimatedEasing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/AnimatedImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/AnimatedImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/AnimatedInteraction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/AnimatedInteraction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/AnimatedParallel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/AnimatedParallel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/AnimatedSequence.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/AnimatedSequence.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/AnimatedSpring.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/AnimatedSpring.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/AnimatedStagger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/AnimatedStagger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/AnimatedTiming.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/AnimatedTiming.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/FaidAnimatet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/FaidAnimatet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/LayoutAnimation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/LayoutAnimation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/animation/PanResponder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/animation/PanResponder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/input/NumberInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/NumberInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/input/TextInput.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/TextInput.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/modal/Alert.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modal/Alert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/temp/BackHandler.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/temp/BackHandler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-base/temp/Transforms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/temp/Transforms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/Div.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/Div.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/Divider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/Divider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/IconP.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/IconP.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/Link.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/Link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/MoreText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/MoreText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/Paragraph.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/Paragraph.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/SelectTime.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/SelectTime.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/Space.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/Space.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/Text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/Text.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/Title.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/Title.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/Checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/Checkbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/CheckboxList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/CheckboxList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/CitySelector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/CitySelector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/DropList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/DropList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/Dropdowner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/Dropdowner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/EditableText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/EditableText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/InputCardNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/InputCardNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/InputNumber.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/InputNumber.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/InputPassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/InputPassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/InputSearch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/InputSearch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/InputSheba.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/InputSheba.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/InputText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/InputText.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/InputTextArea.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/InputTextArea.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/InputWebSite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/InputWebSite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/LinkButtom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/LinkButtom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/SelectCalender.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/SelectCalender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/SelectDate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/SelectDate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/SelectDateRange.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/SelectDateRange.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/TouchButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/TouchButton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/form/TreeSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/form/TreeSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/grid/Col.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/grid/Col.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/grid/Row.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/grid/Row.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/image/Image.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/image/Image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/image/ImageBackground.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/image/ImageBackground.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/image/ImagePreviewGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/image/ImagePreviewGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/layout/Content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/layout/Content.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/layout/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/layout/Sider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/layout/Sider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/navigation/Affix.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/navigation/Affix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/navigation/Breadcrumb.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/navigation/Breadcrumb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/navigation/menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/navigation/menu/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/navigation/menu/MenuItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/navigation/menu/MenuItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/navigation/menu/MenuItemGroup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/navigation/menu/MenuItemGroup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components-external/navigation/menu/SubMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/components-ant/navigation/menu/SubMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/CategoryList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components-page/CategoryList2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/colors.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/images.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/prototype.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/sizes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/sizes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/themes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/themes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helper/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/helpers/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoks/useCounter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useCounter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoks/useLocalStorage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useLocalStorage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hoks/useToggle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useToggle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_document.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/alternate.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/alternate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/actionType.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/_redux_old/actionType.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/actions/categoriesAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/_redux_old/actions/categoriesAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/apiCaller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/reducers/categoryReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/_redux_old/reducers/categoryReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/rootReduser_web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/sagas/categoriesSaga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/_redux_old/sagas/categoriesSaga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/sagas/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-no-common/_redux_old/sagas/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globalStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globalStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,16 +171,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="27xRteDwRTnS9Z4Yy7v3Fnh7Koe" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components-base" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store/modules" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -192,15 +192,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\anymarket_workspace\anymarket_web\components-base" />
-      <recent name="D:\anymarket_workspace\anymarket_web\public" />
-      <recent name="D:\anymarket_workspace\anymarket_web" />
-      <recent name="D:\anymarket_workspace\anymarket_web\components-base\animation" />
-      <recent name="D:\anymarket_workspace\anymarket_web\hoks" />
+      <recent name="D:\anymarket_workspace\anymarket_web\src\store\modules" />
+      <recent name="D:\anymarket_workspace\anymarket_web\src\components-page" />
+      <recent name="D:\anymarket_workspace\anymarket_web\src\redux\reducers" />
+      <recent name="D:\anymarket_workspace\anymarket_web\src" />
+      <recent name="D:\anymarket_workspace\anymarket_web\src\store" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\anymarket_workspace\anymarket_web\src-no-common" />
+      <recent name="D:\anymarket_workspace\anymarket_web\src\store" />
+      <recent name="D:\anymarket_workspace\anymarket_web\src" />
+      <recent name="D:\anymarket_workspace\anymarket_web\src\components-page" />
       <recent name="D:\anymarket_workspace\anymarket_web\components-base\temp" />
-      <recent name="D:\anymarket_workspace\anymarket_web\components-base\animation" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -217,7 +220,17 @@
       <workItem from="1650438252633" duration="3933000" />
       <workItem from="1650443014424" duration="4260000" />
       <workItem from="1650448200000" duration="30804000" />
-      <workItem from="1650613678877" duration="23600000" />
+      <workItem from="1650613678877" duration="30924000" />
+      <workItem from="1650893630457" duration="1219000" />
+      <workItem from="1650997891069" duration="609000" />
+      <workItem from="1651035366592" duration="7354000" />
+      <workItem from="1651061887415" duration="637000" />
+      <workItem from="1651474969320" duration="1480000" />
+      <workItem from="1651479224537" duration="624000" />
+      <workItem from="1652266421122" duration="3923000" />
+      <workItem from="1652511692871" duration="5188000" />
+      <workItem from="1652594913431" duration="7000" />
+      <workItem from="1652595192879" duration="9533000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="persist set default value">
       <created>1650435511994</created>
@@ -274,6 +287,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="persist set default value" />
     <option name="LAST_COMMIT_MESSAGE" value="persist set default value" />
   </component>

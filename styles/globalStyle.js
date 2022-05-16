@@ -1,5 +1,5 @@
 import { StyleSheet,} from 'react-native'
-import {bgWhite, currentColors, mainColors,} from "../helper/colors";
+import {bgWhite, currentColors, mainColors,} from "../src/helpers/colors";
 export const container_css = {
     alignItems: 'center',
     flexGrow: 1,

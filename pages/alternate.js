@@ -1,10 +1,10 @@
 import { StyleSheet} from 'react-native'
-import {changeCurrentTheme, darkColors, mainColors} from "../helper/colors";
+import {changeCurrentTheme, darkColors, mainColors} from "../src/helpers/colors";
 import Link from 'next/link'
 import {useContext, useState} from "react";
-import {ColorContext, DarkModeContext} from "../helper/context";
+import {ColorContext, DarkModeContext} from "../src/helpers/context";
 
-import {Text, TouchableOpacity} from "../components-base";
+import {Text, TouchableOpacity} from "../src/components";
 import {View} from "react-native-web";
 
 export default function Alternate() {

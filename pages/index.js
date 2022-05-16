@@ -10,7 +10,7 @@ import {
     TextInput,
     NumberInput,
 
-} from "../components-base";
+} from "../src/components";
 import {Component, useContext, useState} from "react";
 import {
     container_css,
@@ -18,7 +18,7 @@ import {
     text_css,
 } from "../styles/globalStyle";
 
-import {ColorContext, DarkModeContext} from "../helper/context";
+import {ColorContext, DarkModeContext} from "../src/helpers/context";
 import {
     bgWhite,
     blueColors,
@@ -26,7 +26,7 @@ import {
     currentColors,
     darkColors, greenColors,
     mainColors, purple2Colors, purpleColors, redColors
-} from "../helper/colors";
+} from "../src/helpers/colors";
 import {
     ActivityIndicator,
     Image, ImageBackground,
@@ -34,28 +34,30 @@ import {
     KeyboardAvoidingView, Modal, Picker,
     Platform, Pressable, ProgressBar, ScrollView, StatusBar,
     Switch, TouchableHighlight,
-    TouchableWithoutFeedback, useColorScheme
+    TouchableWithoutFeedback, useColorScheme,
 } from "react-native-web";
-import {logo, search} from "../helper/icons";
-import Layout from "../components-base/Layout";
-import {sellers, vector1, vector2, vector4, vector5, vector6} from "../helper/images";
-import useToggle from "../hoks/useToggle";
+import {logo, search} from "../src/helpers/icons";
+import Layout from "../src/components/Layout";
+import {sellers, vector1, vector2, vector4, vector5, vector6} from "../src/helpers/images";
+import useToggle from "../src/hooks/useToggle";
 import {isModeling} from "../public/images";
-import FaidAnimatet from "../components-base/animation/FaidAnimatet";
-import AlertShow from "../components-base/modal/Alert";
-import AnimatedImage from "../components-base/animation/AnimatedImage";
-import AnimatedTiming from "../components-base/animation/AnimatedTiming";
-import AnimatedSpring from "../components-base/animation/AnimatedSpring";
-import AnimatedParallel from "../components-base/animation/AnimatedParallel";
-import AnimatedSequence from "../components-base/animation/AnimatedSequence";
-import AnimatedStagger from "../components-base/animation/AnimatedStagger";
-import AnimatedEasing from "../components-base/animation/AnimatedEasing";
-import AnimatedInteraction from "../components-base/animation/AnimatedInteraction";
-import PanResponder from "../components-base/animation/PanResponder";
-import PanResponder1 from "../components-base/animation/PanResponder";
-import Transforms from "../components-base/temp/Transforms";
-import BackHandler1 from "../components-base/temp/BackHandler";
-import {useMediaQuery} from "react-responsive";
+import FaidAnimatet from "../src/components/animation/FaidAnimatet";
+import AlertShow from "../src/components/modal/Alert";
+import AnimatedImage from "../src/components/animation/AnimatedImage";
+import AnimatedTiming from "../src/components/animation/AnimatedTiming";
+import AnimatedSpring from "../src/components/animation/AnimatedSpring";
+import AnimatedParallel from "../src/components/animation/AnimatedParallel";
+import AnimatedSequence from "../src/components/animation/AnimatedSequence";
+import AnimatedStagger from "../src/components/animation/AnimatedStagger";
+import AnimatedEasing from "../src/components/animation/AnimatedEasing";
+import AnimatedInteraction from "../src/components/animation/AnimatedInteraction";
+import PanResponder from "../src/components/animation/PanResponder";
+import PanResponder1 from "../src/components/animation/PanResponder";
+import Transforms from "../src/components/temp/Transforms";
+import BackHandler1 from "../src/components/temp/BackHandler";
+import MediaQuery, {useMediaQuery} from "react-responsive";
+import CategoryList from "../src/components-page/CategoryList";
+import Users from "../src/components-page/Users";
 
 const screenWidth = Dimensions.get('window').width;
 const screenHeight = Dimensions.get('window').height;
@@ -115,7 +117,7 @@ export default function App(props) {
         try {
             const result = await Share.share({
                 message:
-                    'React Native | A framework for building native apps using React',
+                    'Anymarket | A framework for level marketing',
             });
             if (result.action === Share.sharedAction) {
                 if (result.activityType) {
@@ -134,6 +136,8 @@ export default function App(props) {
       <Layout>
           <View  style={{flex:1,overflow:'auto'}}>
               <ThemeBox/>
+              <Users/>
+              <CategoryList/>
               <MediaQueryBox/>
               <View style={{margin:10}}>
                   <Text accessibilityRole="header" style={ {
@@ -421,12 +425,27 @@ const MediaQueryBox=()=>{
     const isRetina = useMediaQuery({ query: '(min-resolution: 2dppx)' })
 
     return <View style={{alignSelf: 'center'}}>
-        <h1>Device Test!</h1>
+        <h1>Device Test By Media query!</h1>
         {isDesktopOrLaptop && <p>You are a desktop or laptop</p>}
         {isBigScreen && <p>You  have a huge screen</p>}
         {isTabletOrMobile && <p>You are a tablet or mobile phone</p>}
         <p>Your are in {isPortrait ? 'portrait' : 'landscape'} orientation</p>
         {isRetina && <p>You are retina</p>}
+
+        <MediaQuery minWidth={1224}>
+            <p>You are a desktop or laptop</p>
+            <MediaQuery minWidth={1824}>
+                <p>You also have a huge screen</p>
+            </MediaQuery>
+        </MediaQuery>
+        <MediaQuery minResolution="2dppx">
+            {/* You can also use a function (render prop) as a child */}
+            {(matches) =>
+                matches
+                    ? <p>You are retina</p>
+                    : <p>You are not retina</p>
+            }
+        </MediaQuery>
     </View>
 }
 
